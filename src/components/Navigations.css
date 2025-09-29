@@ -1,0 +1,51 @@
+/* Navigations.css */
+
+/* Navbar background and text color */
+.navbar-custom {
+  background-color: #1e3a8a; /* Tailwind blue-900 */
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
+/* Brand text */
+.navbar-custom .brand-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f9fafb; /* white */
+}
+
+/* Navbar links */
+.navbar-custom .navbar-link {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: #dbeafe; /* light blue */
+  transition: color 0.3s;
+}
+
+.navbar-custom .navbar-link:hover {
+  color: #fbbf24; /* yellow-400 on hover */
+}
+
+/* Active link */
+.navbar-custom .active-link {
+  color: #facc15; /* amber-400 */
+  font-weight: 700;
+}
+
+/* Adjust the logo size */
+.navbar-custom .brand-logo {
+  height: 40px;
+  margin-right: 0.75rem;
+}
+
+/* Collapse menu for mobile */
+.navbar-custom .navbar-collapse {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom .navbar-collapse {
+    flex-direction: row;
+  }
+}

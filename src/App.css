@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  /* CSS rules for screens 768px wide or smaller */
+  body {
+    background-color: lightblue;
+  }
+}
