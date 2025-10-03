@@ -2,7 +2,8 @@ import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 
 function LoginForm() {
   return (
-    <form className="flex max-w-md flex-col gap-4">
+    <div style={{ textAlign:"center", backgroundColor:"orangered", padding:"50px", margin:"50px"}}>
+    <form className="flex max-w-md flex-col gap-4 justifyContent-center">
       <div>
         <div className="mb-2 block">
           <Label htmlFor="email1">Your email</Label>
@@ -39,6 +40,7 @@ function LoginForm() {
         Submit
       </Button>
     </form>
+    </div>
   );
 }
 

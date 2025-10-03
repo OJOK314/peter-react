@@ -1,4 +1,5 @@
 import LoginForm from "../components/Button"
+import Below from "../components/Footer"
 const Contact = () => {
   return (
     <div style={{ backgroundColor: "blueviolet", padding: "1rem", color: "white" }}>
@@ -10,6 +11,7 @@ const Contact = () => {
         any language with a writing system.
       </p>
       <LoginForm/>
+      <Below/>
       <div>
         
       </div>

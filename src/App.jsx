@@ -5,7 +5,7 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Pricing from './pages/Pricing'
 import Contact from './pages/Contact'
-import "./App.css"
+
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
